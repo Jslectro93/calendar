@@ -1,0 +1,13 @@
+.calendarFullDay .calendarDay {
+  inline-size: 100%;
+  align-items: flex-start;
+  border: none;
+  margin: 0;
+}
+
+.calendarFullDay .calendarDay::before {
+  display: none;
+}
+.calendarFullDay .timezoneCell::before {
+  display: none;
+}

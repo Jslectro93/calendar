@@ -1,0 +1,43 @@
+.sidebarList {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarList-header {
+  inline-size: 12.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebarList-header i {
+  font-size: 1.5rem;
+}
+
+.sidebarList-header p {
+  font: var(--body1-medium);
+}
+
+.sidebarList-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarList-content .sidebarList-contentItem {
+  inline-size: 12.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sidebarList-content i {
+  font-size: 1.5rem;
+}
+
+.sidebarList-contentItem {
+  margin-block: 0.5rem;
+}
+
+.sidebarList-contentItem p {
+  margin: 0;
+}

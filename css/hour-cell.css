@@ -1,0 +1,26 @@
+.hourCell {
+    /* border: 1px solid red; */
+    font: var(--body3-regular);
+    display: flex;
+    align-items: flex-end;
+    /* background: var(--white); */
+    padding-inline-end: 1rem;
+    white-space: nowrap;
+    position: relative;
+    z-index: -1;
+}
+
+.hourCell span {
+    position: relative;
+    inset-block-end: -4px;
+}
+
+.hourCell::before {
+    content: " ";
+    inline-size: .5rem;
+    block-size: 1px;
+    background: var(--gray20);
+    position: absolute;
+    inset-inline-end: 0;
+    inset-block-end: 0;
+}
