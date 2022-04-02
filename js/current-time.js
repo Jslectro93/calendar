@@ -12,12 +12,12 @@ function setCurrentTimePosition() {
   let calendarInlineSize = $calendar.clientWidth;
 
   const calendarTimezoneCellInlineSize =
-    document.querySelector(".timezoneCell").clientWidth;
+  document.querySelector(".timezoneCell").clientWidth;
   calendarInlineSize = calendarInlineSize - calendarTimezoneCellInlineSize;
 
-  const cellInlineSize = calendarInlineSize;
+  const cellInlineSize = calendarInlineSize / 7;
 
-  // console.log({ calendarBlockSize }, { calendarInlineSize })
+  // console.log({ calendarBlockSize }, { calendarInlineSize });
   const calendarDayBlockSize =
     document.querySelector(".calendarDay").clientHeight;
   calendarBlockSize = calendarBlockSize - calendarDayBlockSize;
